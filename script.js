@@ -4,9 +4,12 @@ document.getElementById('findRides').addEventListener('click', function() {
 
     // Mock data for available rides
     const rides = [
-        { driver: 'John Doe', start: 'Downtown', destination: 'Airport', time: '10:00 AM' },
-        { driver: 'Jane Smith', start: 'Suburb', destination: 'City Center', time: '11:00 AM' },
-        { driver: 'Mike Johnson', start: 'Train Station', destination: 'Beach', time: '12:00 PM' }
+        { driver: 'Jay Kwashie', start: 'Woe', destination: 'Accra', time: '10:00 AM' },
+        { driver: 'Chris Parbey', start: 'Kaneshie', destination: 'Nsawam', time: '11:00 AM' },
+        { driver: 'Giovani Caleb', start: 'Kasoa', destination: 'Labone', time: '12:00 PM' },
+        { driver: 'Dede Okley', start: 'Nungua', destination: 'Lapaz', time: '12:15 PM' },
+        { driver: 'Jean Amenyaglo', start: 'Koforidua', destination: 'Kasoa', time: '12:00 PM' },
+        { driver: 'Babalola Eze Yusuf', start: 'Oshodi', destination: 'Victoria Island', time: '1:00 PM' }
     ];
 
     // Filter rides based on user input
